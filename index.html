@@ -50,6 +50,13 @@
       padding-left: 1.2rem;
     }
 
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
     .contact-box {
       background-color: #ffffff;
       padding: 1.5rem;
@@ -89,56 +96,70 @@
 
   <header>
     <h1>Sydney Jex</h1>
-    <p>Accounting B.S. | Student</p>
+    <p>Accounting B.S. | Tax Specialist</p>
   </header>
 
   <main>
-    
-<section style="text-align: center; margin-bottom: 3rem;">
-  <img 
-    src="Assets/Photos/Plants 2.jpg" 
-    alt="Soft greenery"
-    style="
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    ">
-</section>
+
+    <section class="hero" style="text-align:center;">
+      <img src="Assets/Photos/Plants 2.jpg" alt="Soft greenery">
+    </section>
 
     <section>
       <h2>About Me</h2>
       <p>
-        Hi, I’m Sydney. I’m an accounting student with a love for organization,
-        thoughtful work, and meaningful systems. I enjoy learning how things
-        function behind the scenes and finding ways to make them clearer and
-        more efficient.
+        I chose accounting because it’s something I genuinely enjoy — and
+        something I’ve always been able to excel at, especially in tax. I like
+        work that rewards clarity, accuracy, and thoughtful problem-solving,
+        and I’m at my best when I’m organizing information and untangling things
+        that feel confusing to others.
       </p>
       <p>
-        This site is a small space to share my education, interests, and
-        things I’m working toward — a more polished version of me on the
-        internet.
+        Outside of the technical side, I’m someone people describe as fun,
+        dependable, and easy to work with. I care deeply about doing things well,
+        being kind in the process, and showing up consistently for the people
+        who rely on me.
       </p>
     </section>
 
     <section>
-      <h2>Education & Qualifications</h2>
+      <h2>Education & Experience</h2>
       <ul>
-        <li>Bachelor of Science in Accounting</li>
-        <li>Experience with financial concepts, reporting, and analysis</li>
-        <li>Strong attention to detail and organization</li>
-        <li>Comfortable learning new systems and tools</li>
+        <li><strong>Bachelor of Science in Accounting</strong> — Utah Valley University, Spring 2026</li>
+        <li><strong>Tax Specialist</strong> — American Benefits Company (Full-time, 2025–present)</li>
+        <li>Strong background in tax concepts, analysis, and client-focused problem solving</li>
+        <li>Known for reliability, accuracy, and quick turnaround</li>
       </ul>
+    </section>
+
+    <section>
+      <h2>How I Work</h2>
+      <p>
+        I’m a fast learner who communicates clearly and works well with a wide
+        range of people. I’m empathetic by nature, detail-oriented in my work,
+        and dependable in deadlines and follow-through.
+      </p>
+      <p>
+        I value honesty, growth, and kindness, and I try to bring those into
+        everything I do — whether I’m solving a tax issue, learning a new
+        system, or working with a team.
+      </p>
+    </section>
+
+    <section>
+      <h2>A Cozy Corner</h2>
+      <p>
+        Outside of work, I love baking and cooking for the people around me.
+        This site will eventually include a small, cozy space for sharing
+        favorite recipes — dinners, baked goods, and side dishes that feel
+        comforting and worth passing along.
+      </p>
     </section>
 
     <section>
       <h2>Contact Me</h2>
       <div class="contact-box">
-        <p>
-          If you’d like to reach out, feel free to send a message below.
-        </p>
-
-        <!-- This uses Formspree – no email exposed -->
+        <p>If you’d like to reach out, feel free to send a message below.</p>
         <form action="https://formspree.io/f/xyzzabcd" method="POST">
           <input type="text" name="name" placeholder="Your name" required>
           <input type="email" name="email" placeholder="Your email" required>
