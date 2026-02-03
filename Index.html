@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sydney Jex | About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f6f3ee;
+      color: #3f3a34;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #e8e2d6;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #c9c1b3;
+      padding-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .contact-box {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.5rem;
+      font-family: inherit;
+    }
+
+    button {
+      background-color: #7a8f6a;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    button:hover {
+      background-color: #6b7f5e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #6b645c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Sydney Jex</h1>
+    <p>Accounting B.S. | Student</p>
+  </header>
+
+  <main>
+    
+<section style="text-align: center; margin-bottom: 3rem;">
+  <img 
+    src="Assets/Photos/Plants 2.jpg" 
+    alt="Soft greenery"
+    style="
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    ">
+</section>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m Sydney. I’m an accounting student with a love for organization,
+        thoughtful work, and meaningful systems. I enjoy learning how things
+        function behind the scenes and finding ways to make them clearer and
+        more efficient.
+      </p>
+      <p>
+        This site is a small space to share my education, interests, and
+        things I’m working toward — a more polished version of me on the
+        internet.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education & Qualifications</h2>
+      <ul>
+        <li>Bachelor of Science in Accounting</li>
+        <li>Experience with financial concepts, reporting, and analysis</li>
+        <li>Strong attention to detail and organization</li>
+        <li>Comfortable learning new systems and tools</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <div class="contact-box">
+        <p>
+          If you’d like to reach out, feel free to send a message below.
+        </p>
+
+        <!-- This uses Formspree – no email exposed -->
+        <form action="https://formspree.io/f/xyzzabcd" method="POST">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Sydney Jex
+  </footer>
+
+</body>
+</html>
